@@ -1,9 +1,13 @@
 {
-    "name": "eberkund/range",
+    "name": "eberkund/ranger",
     "version": "0.1",
     "description": "Easily expand text to an array of integers",
     "license": "MIT",
     "type": "library",
+    "support": {
+        "issues": "https://github.com/eberkund/ranger/issues",
+        "source": "https://github.com/eberkund/ranger"
+    },
     "require": {
         "php": ">=7.0",
         "illuminate/support": "^5.5"
