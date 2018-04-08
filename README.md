@@ -1,3 +1,6 @@
+[![Total Downloads](https://poser.pugx.org/eberkund/ranger/downloads)](https://packagist.org/packages/eberkund/ranger)
+[![License](https://poser.pugx.org/eberkund/ranger/license)](https://packagist.org/packages/eberkund/ranger)
+
 # Ranger
 
 Easily expand text to an array of integers.
