@@ -1,6 +1,6 @@
 # Ranger
 
-Easily expand text to an array of integers
+Easily expand text to an array of integers.
 
 ## Installation
 

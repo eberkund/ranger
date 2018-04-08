@@ -1,5 +1,6 @@
 {
     "name": "eberkund/range",
+    "version": "0.1",
     "description": "Easily expand text to an array of integers",
     "license": "MIT",
     "type": "library",
