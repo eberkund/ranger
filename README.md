@@ -21,3 +21,11 @@ get_range('1-3,8');
 
 // [1, 2, 3, 8]
 ```
+
+## Testing
+
+Run the tests with,
+
+```
+vendor/bin/phpunit
+```
