@@ -7,25 +7,26 @@ use InvalidArgumentException;
 
 class SinglesTest extends TestCase
 {
-    /** @test */
-    public function number()
+    public function setUp()
     {
-        $this->assertEquals([41], get_range('41'));
+        $this->expectException(InvalidArgumentException::class);
     }
 
     /** @test */
     public function number_followed_by_nonnumber()
     {
-        $this->expectException(InvalidArgumentException::class);
-
         get_range('4r');
     }
 
     /** @test */
     public function nonnumber()
     {
-        $this->expectException(InvalidArgumentException::class);
-
         get_range('<');
+    }
+
+    /** @test */
+    public function incorrect_range_input()
+    {
+        get_range('1-2s');
     }
 }
