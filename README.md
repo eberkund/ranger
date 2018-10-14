@@ -1,6 +1,7 @@
 [![Total Downloads](https://poser.pugx.org/eberkund/ranger/downloads)](https://packagist.org/packages/eberkund/ranger)
 [![License](https://poser.pugx.org/eberkund/ranger/license)](https://packagist.org/packages/eberkund/ranger)
 [![Build Status](https://travis-ci.org/eberkund/ranger.svg?branch=master)](https://travis-ci.org/eberkund/ranger)
+[![Coverage](https://codecov.io/gh/eberkund/ranger/branch/master/graph/badge.svg)](https://codecov.io/gh/eberkund/ranger)
 
 # Ranger
 
