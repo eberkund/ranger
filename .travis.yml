@@ -9,6 +9,4 @@ before_script:
 
 script:
   - vendor/bin/phpunit
-
-after_sucess:
   - bash <(curl -s https://codecov.io/bash)
