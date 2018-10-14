@@ -8,5 +8,7 @@ before_script:
   - composer install --no-interaction
 
 script:
-  - vendor/bin/phpunit --coverage-clover=coverage.xml
+  - vendor/bin/phpunit
+
+after_sucess:
   - bash <(curl -s https://codecov.io/bash)
