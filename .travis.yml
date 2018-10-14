@@ -7,8 +7,10 @@ before_script:
   - composer self-update
   - composer install --no-interaction
 
+install:
+  - pip install codecov
+
 script:
   - vendor/bin/phpunit --coverage-clover=coverage.xml
 
-after_sucess:
-  - bash <(curl -s https://codecov.io/bash)
+after_sucess: codecov
